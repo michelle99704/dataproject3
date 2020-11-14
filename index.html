@@ -60,7 +60,7 @@
         }
         map.createPane('pane_Map_0');
         map.getPane('pane_Map_0').style.zIndex = 400;
-        var layer_Map_0 = L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
+        var layer_Map_0 = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             pane: 'pane_Map_0',
             opacity: 1.0,
             attribution: '',
